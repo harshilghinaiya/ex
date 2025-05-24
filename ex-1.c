@@ -1,30 +1,43 @@
 #include<stdio.h>
-
 int main()
 {
 	char ch;
-	printf("Enter a char:");
+	printf("Enter Your Character: ");
 	scanf("%c",&ch);
-	
 	switch(ch)
 	{
-		case'a': case'e':case'i':case'o':case'u':
-		case'A':case'E':case'I':case'O':case'U':
-			printf("%C is vowel.\n",ch);
-			break;
-			
-			
-			default:
-			printf("%cs a consonant.\n",ch);
-			
+		case 'a': 
+		    printf("Your character is Vowel.");
+		    break;
+		case 'e': 
+		    printf("Your character is Vowel.");
+		    break;
+		case 'i': 
+	        printf("Your character is Vowel.");
+	            break;
+		case 'o': 
+		    printf("Your character is Vowel.");
+		    break;
+		case 'u': 
+		    printf("Your character is Vowel.");
+		    break;
+		case 'A': 
+		    printf("Your character is Vowel.");
+		    break;
+		case 'E': 
+		    printf("Your character is Vowel.");
+		    break;
+		case 'I': 
+	        printf("Your character is Vowel.");
+	            break;
+		case 'O': 
+		    printf("Your character is Vowel.");
+		    break;
+		case 'U': 
+		    printf("Your character is Vowel.");
+		    break;
+		default:   
+		    printf("Your character is consonant.");
+		    break;
 	}
 }
-/*
-cons..
-Enter a char:harshil
-hs a consonant.
-vov...
-Enter a char:aEiou
-a is vowel.
-
-*/
